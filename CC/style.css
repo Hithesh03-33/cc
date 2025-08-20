@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #ccc;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 300px;
+}
+
+#chatBox {
+  height: 150px;
+  overflow-y: scroll;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #fafafa;
+  margin-bottom: 10px;
+}

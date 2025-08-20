@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cloud Collaboration Tools</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.ably.io/lib/ably.min-1.js"></script>
+</head>
+<body>
+  <h1>🌐 Cloud Collaboration Tools</h1>
+
+  <!-- Module 1: GitHub API -->
+  <section>
+    <h2>👤 GitHub Profile Viewer</h2>
+    <input type="text" id="githubUser" placeholder="Enter GitHub username" />
+    <button onclick="fetchGitHubUser()">Fetch</button>
+    <div id="githubResult"></div>
+  </section>
+
+  <!-- Module 2: File Upload to Supabase -->
+  <section>
+    <h2>📤 Upload File to Supabase</h2>
+    <input type="file" id="fileInput" />
+    <button onclick="uploadFile()">Upload</button>
+    <p id="uploadStatus"></p>
+  </section>
+
+  <!-- Module 3: Ably Chat -->
+  <section>
+    <h2>💬 Real-Time Chat</h2>
+    <div id="chatBox"></div>
+    <input type="text" id="chatInput" placeholder="Type your message" />
+    <button onclick="sendMessage()">Send</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
